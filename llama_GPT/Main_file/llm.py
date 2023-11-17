@@ -21,7 +21,7 @@ bnb_config = transformers.BitsAndBytesConfig(
     bnb_4bit_use_double_quant=True,
     bnb_4bit_compute_dtype=bfloat16
 )
-hf_auth = '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'
+hf_auth = ''
 model_config = transformers.AutoConfig.from_pretrained(
     model_id,
     use_auth_token=hf_auth
